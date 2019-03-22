@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Форма для заказа пиццы</title>
+</head>
+<body>
+	<div>
+		<label><span>Выберите пиццу:</span>
+			<select name="type">
+				<option value="Margarita">Маргарита</option>
+				<option value="Mexiranskaya">Мексиканская</option>
+				<option value="Gavaiskaya">Гавайская</option>
+				<option value="shef-pizza">Шеф-пицца</option>
+			</select>
+		</label>
+	</div>
+
+	<div>
+		<label><span>Выберите основу:</span>
+			<input type="radio" name="osnova" value="small"> тонкий край
+			<input type="radio" name="osnova" value="big"> толстый край
+		</label>
+	</div>
+
+	<div>
+		<label>
+			<input type="checkbox" value="razrez_pizza">
+			<span>Разрезать пиццу:</span>
+		</label>
+	</div>
+	<div>
+		<label>
+			<span>Номер телефона для связи:</span>
+			<input type="text" name="">
+		</label>
+	</div>
+
+	<div>
+		<label>
+			<span>Адрес доставки:</span>
+			<input type="text" name="">
+		</label>
+	</div>
+
+	<div>
+		<label>
+			<span>Дополнительные пожелания:</span>
+			<div><textarea cols="50" rows="13" maxlength="300" placeholder="Введите время доставки, код домофона и пр."></textarea>
+			</div>
+		</label>
+	</div>
+	<div>
+		<input type="submit" name="" value="Заказать">
+	</div>
+</body>
+</html>
