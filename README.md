@@ -21,9 +21,9 @@
 [Домашнее задание](HTML-bases.md) [Task 1, 2](https://github.com/AdukarIT/StreltsovaAS/tree/master/Task_3)
 
 ## 4. Формы. Ссылочные протоколы
-[Презентация](https://github.com/AdukarIT/StreltsovaAS/tree/master/Task_4)
+[Презентация](https://docs.google.com/presentation/d/11sfdZrM2wLuw6472JCh6ijq3uD19o1rWXlQNB0rqbOw)
 
-[Task 1,2](https://github.com/AdukarIT/StreltsovaAS/tree/master/Task_4)
+[Task 1, 2] (https://github.com/AdukarIT/StreltsovaAS/tree/master/Task_4)
 
 ## 5. Продвинутый HTML
 [Презентация](https://docs.google.com/presentation/d/1DOHVcTDGGR2L0QjvXatpW5fyryKqAgU9T7Z7doGmSlc)
