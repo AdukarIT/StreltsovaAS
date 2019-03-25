@@ -17,6 +17,7 @@
 ## 3. Основы HTML
 
 [Презентация](https://docs.google.com/presentation/d/1WgUWIp_JkCTRVB6V4jDXOt1cN694DYananXn-s5GSOg)
+
 [Домашнее задание](HTML-bases.md) [Task 1, 2](https://github.com/AdukarIT/StreltsovaAS/tree/master/%D0%B4%D0%B71)
 
 ## 4. Формы. Ссылочные протоколы
