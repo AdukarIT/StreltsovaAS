@@ -23,7 +23,7 @@
 ## 4. Формы. Ссылочные протоколы
 [Презентация](https://github.com/AdukarIT/StreltsovaAS/tree/master/Task_4)
 
-[Task 1,2](https://github.com/AdukarIT/StreltsovaAS/tree/master/дз%202_формы)
+[Task 1,2](https://github.com/AdukarIT/StreltsovaAS/tree/master/Task_4)
 
 ## 5. Продвинутый HTML
 [Презентация](https://docs.google.com/presentation/d/1DOHVcTDGGR2L0QjvXatpW5fyryKqAgU9T7Z7doGmSlc)
