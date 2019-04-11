@@ -1,0 +1,77 @@
+body{
+	background-color: #fbdfd2;
+	}
+
+h1{
+	text-align: center;
+	font-family: sans-serif;
+	font-size: 40px;
+	color:blue;
+	display: block;
+}
+
+.nav_shop{
+display: inline-block;
+height: 85%;
+width: 24%;
+background-color: #f9763b;
+border: 8px solid red;
+position: fixed;
+font-family: sans-serif;
+font-size: 16px;
+padding: 10px;
+margin-top: -50px;
+margin-left: 20px;
+
+}
+
+.form_order{
+	background-color: #ffbea0;
+	border: 5px solid #ff6f2d;
+	display: inline-block;
+	height: 70%;
+	width: 50%;
+	position: relative;
+	left: 30%;
+	font-family: sans-serif;
+	font-size: 18px;
+	padding: 20px;
+}
+
+.contacts{
+	display: inline-block;
+	height: 100px;
+	width: 800px;
+	position: relative;
+	font-family: sans-serif;
+	font-size: 16px;
+	color: blue;
+	left: 400px;
+	text-align: justify;
+	border:  4px solid blue;
+	background-color: #91eef4;
+	margin-top: 20px;
+}
+
+.nav_shop_section{
+ list-style:none; 
+}
+/*<--Скрываем маркеры-->*/
+
+
+
+.nav_shop_section_appliances_list{
+	display: none;
+	}
+	 .nav_shop_section_appliances_kitchen_list {
+	 	display: none;
+	 }
+
+.nav_shop_section_computer_technology_list{
+	display: none;
+}                                           
+ /*<--Скрываем подразделы-->*/
+
+.nav_shop li:hover > ul{
+display: block;
+}

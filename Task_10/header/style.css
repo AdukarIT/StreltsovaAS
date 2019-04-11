@@ -1,0 +1,100 @@
+body{
+	background-color: #f7daa1
+}
+
+.logo{
+	display: inline-block;
+	height: 80px;
+	width: 150px;
+    margin: 0px;
+    margin-right: 20px;
+    margin-top: 50px;
+}
+.search_form{
+	display: inline-block;
+	height: 80px;
+	width: 330px;
+	margin-bottom: 100px;
+
+}
+
+.search_form_title_input{
+	height: 50px;
+	width: 250px;
+	border: 4px dotted pink;
+
+}
+.logo_image{
+	display: inline-block;
+	height: 70px;
+	width: 150px;
+	position: relative;
+	left: 10px;
+}
+
+
+.nav_shop > ul{
+	display: flex;
+	position: fi
+}
+.nav_shop_list{
+	list-style: none;
+	justify-content: center;
+}
+
+.nav_shop > ul li a{
+	display: block;
+	background: pink;
+	padding:  15px 30px;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 20px;
+	font-family: serif;
+}
+.nav_shop{
+	display: inline-block;
+	height: 80px;
+	width: 500px;
+}
+
+.nav_shop_list_catalog,
+.nav_shop_list_news,
+.nav_shop_list_about_us{
+	border: 5px solid grey;
+}
+
+.phone_number{
+font-size: 15px;
+font-family: sans-serif;
+color: blue;
+
+}
+
+.nav_shop_list_catalog > a:hover,
+.nav_shop_list_news > a:hover,
+.nav_shop_list_about_us > a:hover{
+	background-color: yellow;
+	transition: all 0.2s;
+}
+
+.nav_shop_list_catalog > a:focus,
+.nav_shop_list_news > a:focus,
+.nav_shop_list_about_us > a:focus{
+	background-color: green;
+	transition: all 0.2s;
+}
+
+.phone_number{
+	display: inline-block;
+	height: 80px;
+	width: 200px;
+	margin-left: 20px;
+}
+
+.phone_number > p {
+	font-size: 16px;
+	font-family: sans-serif;
+	border: 3px solid blue;
+	color: white;
+	background-color: black;
+}

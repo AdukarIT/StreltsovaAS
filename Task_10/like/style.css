@@ -1,0 +1,26 @@
+.like_picture{
+	display: none;
+}
+
+.like_span{
+	display: inline-block;
+	height: 50px;
+	width: 50px;
+	background-image: url("image/grey.png");
+	background-size: 50px 30px;
+	background-repeat: no-repeat;
+}
+
+.like_span:hover{
+	background-image: url("image/blue.png");
+	background-size: 30px 30px;
+	background-repeat: no-repeat;
+	margin-left: 5px;
+	transition: all 0.2s;
+
+}
+
+input[type="checkbox"]:checked + span::before {
+
+	background-color: red;
+}

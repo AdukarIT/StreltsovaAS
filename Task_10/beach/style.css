@@ -1,0 +1,11 @@
+div {
+  height: 500px;
+  width: 1000px;
+}
+
+.beach {
+  background-image: url("img/sun.png"), url("img/sea.jpg"), url("img/sky.jpg");
+  background-position: top right, bottom center, top center;
+background-size: 30% auto, 100% auto, 100% auto;
+background-repeat: no-repeat, no-repeat, no-repeat;
+}

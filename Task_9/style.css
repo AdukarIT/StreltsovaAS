@@ -1,0 +1,39 @@
+.registration_name_input{
+	border-bottom: 4px solid green;
+	border-top:none;
+	border-left:none;
+	border-right:none;
+		height: 50px;
+	width: 500px;
+	}
+
+.registation_email_input{
+		border-bottom: 4px solid green;
+	border-top:none;
+	border-left:none;
+	border-right:none;
+		height: 50px;
+	width: 500px;
+
+}
+
+.registation_name{
+	font-family: sans-serif;
+	font-size: 20px;
+}
+
+.registration_country_select{
+			border-bottom: 4px solid green;
+}
+
+.registration_submit{
+	color:white;
+	background-color: green;
+	height: 50px;
+	width: 500px;
+}
+
+.registration_submit:hover{
+	opacity: 0.5;
+
+}
