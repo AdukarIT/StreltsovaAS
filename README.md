@@ -38,12 +38,14 @@
 
 ## 8. Float. Псевдоклассы и составные селекторы
 [Презентация](https://docs.google.com/presentation/d/1ujoKUHYsQb0vSYQl9nym4BaF3wx_zpPNWen7915vXjQ)
-[Домашнее задание](CSS-blocks.md)
+
 
 ## 9. Свойства видимости. Именование классов. БЭМ
 [Презентация](https://docs.google.com/presentation/d/1HXSQyl1hmq8iu_3iuILVfSfVacxkFJrNpUP1A-5fkws)
-[Task 1] (https://github.com/AdukarIT/StreltsovaAS/tree/master/Task_9)
+
+[Task 1](https://github.com/AdukarIT/StreltsovaAS/tree/master/Task_9)
 
 ## 10. Изображения. Шрифты и иконки
 [Презентация](https://docs.google.com/presentation/d/1SZnfA0SogjtcTOVRmY5m7oBhfN5lGjqNLT94wgEyxO4)
+
 [Task 1, 2, 4](https://github.com/AdukarIT/StreltsovaAS/tree/master/Task_10)
