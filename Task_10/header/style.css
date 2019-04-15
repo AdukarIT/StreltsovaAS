@@ -4,11 +4,12 @@ body{
 
 .logo{
 	display: inline-block;
-	height: 80px;
+	height: 70px;
 	width: 150px;
-    margin: 0px;
+    margin: 20px;
     margin-right: 20px;
     margin-top: 50px;
+    padding-top: 10px;
 }
 .search_form{
 	display: inline-block;

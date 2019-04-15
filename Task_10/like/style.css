@@ -20,7 +20,10 @@
 
 }
 
-input[type="checkbox"]:checked + span::before {
+.like_picture:checked + span{
+	background-image: url("image/red.png");
+}
 
-	background-color: red;
+.like_picture:checked +span:hover{
+	opacity: 0.3;
 }

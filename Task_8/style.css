@@ -72,6 +72,24 @@ margin-left: 20px;
 }                                           
  /*<--Скрываем подразделы-->*/
 
-.nav_shop li:hover > ul{
-display: block;
+
+
+.nav_shop li:hover + ul{
+	display: block;
+}
+
+.courier_adress{
+	display: none;
+}
+
+.shipping_method_courier:checked + .courier_adress{
+	display: block;
+
+}
+
+iframe{
+	display: none;
+}
+.shipping_method_addres:checked + .frame_maps{
+	display: block;
 }
