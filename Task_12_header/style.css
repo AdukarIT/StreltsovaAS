@@ -1,0 +1,146 @@
+header{
+	background-image: url(image_1.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+p, h4, h1, h2, .phone-number{
+	color: white;
+	font-family: sans-serif;
+}
+
+.adukar{
+	display: inline-block;
+	width: 100px;
+	height: 80px;
+	box-sizing: border-box;
+	margin-right: 310px;
+	margin-left: 80px;
+}
+.adukar__text{
+	font-size: 23px;
+	text-transform: uppercase;
+
+
+}
+
+.information{
+		display: inline-block;
+	width: 250px;
+	height: 80px;
+	text-align: center;
+	box-sizing: border-box;
+	}
+
+.information__courses, .information__contacts{
+	display: inline-block;
+	width: 230px;
+	height: 60px;
+	display: flex;
+	text-transform:uppercase;
+}
+
+.information__contacts{
+			margin-left: 50px;
+
+}
+
+a{
+	text-decoration: none;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.phone-number{
+	display: inline-block;
+	width: 150px;
+	height: 80px;
+	margin-left: 320px; 
+	font-weight: bold;
+}
+
+.title{
+	display: inline-block;
+	width: 700px;
+	height: 150px;
+	margin-left: 25%;
+	margin-top: 100px;
+}
+
+.title__main{
+	text-transform: uppercase;
+		color: #f57a42;
+		font-weight: bold;
+		text-align: center;
+}
+
+.title__additionally{
+	font-family: cursive;
+	color: #f57a42;
+	font-weight: bold;
+	text-align: center;
+}
+
+.content{
+	display: inline-block;
+	width: 360px;
+	height: 100px;
+	margin-left: 50px;
+	margin-top: 10px;
+}
+
+.content__item{
+	font-family: fantasy;
+		margin-right: 30px;
+		color: #6356c1;
+		font-size: 27px;
+		background-color: #f8e7df;
+		border: 2px solid  black;
+		text-align: center;
+	}
+
+.lesson{
+	display: inline-block;
+	height: 150px;
+	width: 500px;
+	margin-left: 35%;
+}
+
+button{
+	background-color: red;
+}
+.lesson__start, button{
+		font-family: cursive;
+			font-size: 23px;
+			color:black;
+			font-weight: bold;
+}
+
+a:hover{
+	color:green;
+	transition: all 0.2s;
+}
+
+button:hover{
+	background-color: yellow;
+	transition: all 0.2s;
+}
+
+.icons_lesson{
+	padding-top: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.icons{
+	display: inline-block;
+	width: 300px;
+	height: 100px;
+	margin-left: 1070px;
+	margin-top: -60px;
+}
+
+.lesson__start{
+	margin-top: 50px;
+}
