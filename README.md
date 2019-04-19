@@ -26,3 +26,6 @@
 ## 10. Изображения. Шрифты и иконки
 
 [Tasks](https://github.com/AdukarIT/StreltsovaAS/tree/master/Task_10)
+
+## 12. Flexbox
+[Task 1](https://github.com/AdukarIT/StreltsovaAS/tree/master/Task_12_header)
