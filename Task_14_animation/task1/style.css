@@ -1,0 +1,25 @@
+img{
+	height: 200px;
+	width: 200px;
+	padding-left: 0px;
+	}
+
+.animation{
+	width: 800px;
+	height: 200px;
+	border:2px solid black;
+}
+
+input:checked +img{
+	transform: translateX(600px);
+	transition: all 6s ease;
+}
+
+input:not(:checked) + img{
+	transform: translateX(0px);
+	transition: all 6s ease;
+}
+
+input{
+	display: none;
+}
