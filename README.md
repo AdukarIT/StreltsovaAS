@@ -29,6 +29,7 @@
 
 ## 12. Flexbox
 [Task 1](https://github.com/AdukarIT/StreltsovaAS/tree/master/Task_12_header)
+[Task 2](https://github.com/AdukarIT/StreltsovaAS/tree/master/Task_12_vkontakte/vkon)
 
 ## 14. Анимация
 [Task 1, 2, 3](https://github.com/AdukarIT/StreltsovaAS/tree/master/Task_14_animation)
