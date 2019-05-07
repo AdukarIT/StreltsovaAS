@@ -1,0 +1,433 @@
+body{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+.page-header{
+	height: 8%;
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	background-color: #3A49E4;
+	position: fixed;
+}
+
+.page-header__icons-vk{
+	flex:1;
+	text-align: center;
+	padding-top: 10px;
+}
+.page-header__search{
+	flex:2;
+	padding-top: 10px;
+	text-align: right;
+	padding-right: 10px;
+}
+.page-header__notification{
+	flex:0.2;
+	text-align: center;
+	padding-top: 10px;
+}
+.page-header__music{
+	flex:0.2;
+	text-align: center;
+	padding-top: 10px;
+}
+.page-header__video{
+	flex:0.2;
+	text-align: center;
+	padding-top: 10px;
+}
+
+.page-header__user-name{
+	flex:2;
+	padding-top: 10px;
+	text-align: center;
+}
+
+.page-header__user-name img{
+	display: inline-block;
+	width: 5%;
+}
+
+.page-header__search__row{
+	border-radius: 20px;
+	background-color: #131B86;
+	border:#131B86;
+	padding-left: 40px;
+}
+
+.page-header__user-name p{
+	display: inline-block;
+	height: 3%;
+	width: 60%;
+    text-align: right;
+}
+
+page-header__user-name i{
+	display: inline-block;
+	height: 3%;
+	width: 5%;
+}
+
+.fa-youtube, .fa-music, .fa-bell, .fa-arrow-down{
+	color: #131B86;
+}
+
+.fa-vk{
+	color: white;
+}
+
+.page-main{
+	background-color: #B1B5F2;
+	display: flex;
+	flex-direction:row;
+	justify-content:space-around;
+padding-top: 5%;
+}
+
+.page-main__flex{
+	flex:1;
+	display: flex;
+	flex-direction: column;
+	background-color: blue;
+	margin-right: 20px;
+	margin-left:128px;
+	width: 30%;
+	height: 100%;
+    background-color: #B1B5F2;
+
+}
+
+.page-news{
+	flex:2;
+	display: flex;
+	flex-direction: column;
+	width: 40%;
+
+
+
+}
+
+.page-menu-extra{
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	margin-left: 20px;
+	margin-right: 150px;
+	flex:1;
+	width: 30%;
+}
+
+.page-news__post{
+
+}
+
+
+
+
+.photo{width: 60%;}
+
+.page-main__contacts{
+flex:1;
+height: 15%;
+
+}
+
+.page-main__contacts > ul li{
+	list-style: none;
+}
+
+.page-main__menu  li{
+	list-style: none;
+}
+
+
+.page-main__contacts > ul >li a{
+	display: block;
+	text-decoration: none;
+	font-size: 12px;
+	color:grey;
+}
+
+.page-main__menu  li  a{
+    display: block;
+	text-decoration: none;
+	font-family: sans-serif;
+	padding-bottom: 15px;
+		color:#4343DF;
+	font-weight: bold;
+}
+
+.page-main__menu  li  a:hover{
+	background-color: #618FD1;
+}
+
+.page-main__contacts a:hover{
+	text-decoration: underline;
+}
+
+.fa-home, .fa-file-alt, .fa-comments, .fa-user-friends, .fa-users, .fa-camera-retro, .fa-play-circle, .fa-gamepad, .fa-goodreads, .fa-star, .fa-file-alt{
+	width: 20px;
+	color: #1A6DDB;
+	padding-right: 10px;
+}
+
+ul .fa-music{
+	width: 20px;
+	color: #1A6DDB;
+	padding-right: 10px;
+}
+
+.page-news{
+	display: flex;
+	flex-direction: column;
+	align-content: space-around;
+	position: relative;
+}
+.page-news-search >  input{
+	border-radius: 10px;
+	height: 80%;
+	width: 123%;
+}
+
+.page-news-search{
+ flex:0.5;
+ height: 5%;
+ width: 80%;
+ margin-bottom: 20px;
+}
+.page-news__post{
+	flex:2;
+	height: 70%;
+	width: 100%;
+	flex: 1;
+	margin-bottom: 15px;
+	margin-top: 15px;
+	background-color: white;
+	border-radius: 5px;
+}
+
+.page-menu-extra{
+	display: flex;
+	flex-direction: column;
+	align-content: space-around;
+	position: relative;
+	height: 30%;
+	width: 10%;
+	border-radius: 5px;
+}
+
+
+.page-menu-extra__list{
+	flex:3;
+
+	margin-bottom: 15px;
+	border-radius: 5px;
+	background-color: white;
+}
+
+.page-special{
+	margin-top: 20px;
+
+	flex:0.5;
+	border-radius: 5px;
+	background-color: white;
+}
+
+.page-menu-extra__list  ul{
+	list-style: none;
+	font-family: sans-serif;
+	font-size: 16px;
+}
+
+.page-menu-extra__list__news{
+	margin-left: -17px;
+}
+
+.page-menu-extra__list ul li a{
+	display: block;
+	text-decoration: none;
+	color:#4343DF;
+	font-weight: bold;
+	padding: 5px;
+}
+
+.page-menu-extra__list ul li a:hover{
+	background-color: #ACACF1;
+}
+.page-special  p{
+	font-family: sans-serif;
+	font-size: 16px;
+	color:#4343DF;
+	font-weight: bold;
+	padding-left: 3px;
+}
+
+
+.page-news__post{
+
+}
+
+.page-news__post__list, .page-news__post__icons, .page-news__post__comments, .page-news__post__comments ul{
+	list-style: none;
+}
+
+.page-news__post__avatar > img{
+	float: left;
+	padding-right: 15px;
+	padding-bottom: 15px;
+}
+
+.page-news__post__photo{
+	clear:both;
+}
+
+.page-news__post__text{
+	padding-bottom: 10px;
+}
+
+.page-news__post__comments__avatar-1 img, .page-news__post__comments__avatar-2 img{
+	float:left;
+	padding-right: 10px;
+	padding-bottom: 10px;
+
+}
+
+.avatar{
+	width: 15%;
+}
+
+.photo{
+	width: 90%;
+}
+..page-news__post__comments__avatar-2{
+	clear:both;
+}
+
+.page-news__post__icons{
+	display: block;
+	display:flex;
+}
+
+.page-news__post__icons__like, .page-news__post__icons__comments, .page-news__post__icons__repost{
+	display: block;
+	flex-direction: row;
+}
+
+
+.page-news__post__comments{
+	margin-top: 30px;
+	margin-left: -150px;
+}
+
+.page-news__post__times-ago, .page-news__post__comments__times_ago{
+	font-size: 10px;
+}
+
+.page-news__post__text{
+	font-size: 18px;
+}
+
+.page-news__post__user-name, .page-news__post__comments__user-name{
+	font-size: 15px;
+
+}
+
+.page-news__post__user-name a, .page-news__post__comments__user-name a{
+	text-decoration: none;
+	color:blue;
+}
+
+.page-news__post__comments__avatar img{
+	float: left;
+	padding-right: 10px;
+	padding-bottom: 10px; 
+}
+
+.page-news__post__comments__times_ago{
+	padding-bottom: 30px;
+}
+
+
+.page-news__post__icons li{
+	padding: 5px;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Akronim|Marck+Script|Pacifico|Roboto:400,400i,700');
+
+@import url('https://fonts.googleapis.com/css?family=Bad+Script');
+
+.page-news__post li{
+	font-family: 'Pacifico', cursive;
+}
+
+.page-header__user-name > p {
+	font-family: 'Bad Script', cursive;
+	font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.fa-caret-right{
+	height: 50px;
+	width: 50px;
+	color:yellow;
+}
+.page-special-interesting:checked + span .fa-caret-right{
+	transform: translateX(15px);
+	transition: all 1s ease;
+	color: blue;
+}
+
+
+.page-special-interesting:not(:checked) + span .fa-caret-right{
+	transform: translateX(0px);
+	transition: all 1s ease;
+}
+
+.page-special-interesting{
+	display:none;
+
+  }
+
+
+.page-news__post__icons__like input:checked + span .fa-heart{
+	color:red;
+}
+
+.page-news__post__icons__like input:not(:checked) + span .fa-heart{
+	color:none;
+}
+
+.page-news__post__icons__like input{
+	display: none;
+}
+
+
+.fa-arrow-circle-up:hover, .fa-comment-alt:hover{
+	color: green;
+}
+
+
