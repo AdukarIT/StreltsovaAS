@@ -287,7 +287,7 @@ ul .fa-music{
 	padding-bottom: 10px;
 }
 
-.page-news__post__comments__avatar-1 img, .page-news__post__comments__avatar-2 img{
+.page-news__post__comments__avatar-1 img, .page-news__post__comments__avatar-2 img{ // нет разницы между avatar-1 и avatar-2
 	float:left;
 	padding-right: 10px;
 	padding-bottom: 10px;
