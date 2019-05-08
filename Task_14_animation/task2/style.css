@@ -18,3 +18,5 @@ img:not(:hover){
 	transform: rotate(1080deg);
 	transition: all 4s ease;
 }
+
+// ок, но какое-то слишком большое значение градусов, разве нет?
