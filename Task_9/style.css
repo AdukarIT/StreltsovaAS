@@ -23,7 +23,7 @@
 }
 
 .registration_country_select{
-			border-bottom: 4px solid green;
+			border-bottom: 4px solid green; // форматирование
 }
 
 .registration_submit{
