@@ -2,9 +2,9 @@
 	height: 135px;
 	width: 66px;
    	background-image: url("img/sprite.jpg");
-   	transition: 0.3s steps(6);
+   	transition: 0.3s steps(6); // к чему применится анимация, в таком случае?
    }
 
 .sub-zero:hover{
-	background-position: -396px 0;
+	background-position: -396px 0; // лучше избегать использования отрицательных значений
 }
