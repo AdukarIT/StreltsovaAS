@@ -1,0 +1,15 @@
+.tada{
+	@include font-title;
+	padding-bottom: 30px;
+}
+
+header{
+margin-bottom: 40px;
+margin-top: 40px;
+}
+
+header p {
+	@include font-text;
+}
+
+

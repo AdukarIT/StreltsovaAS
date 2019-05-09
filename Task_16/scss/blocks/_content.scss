@@ -1,0 +1,18 @@
+
+
+ td{
+	border:2px solid black;
+	border-collapse: collapse;
+
+}
+
+table{
+	border-spacing: 0px;
+	border-collapse: collapse;
+	background-color: #f5f5f5;
+}
+
+table td{
+	@include font-text-table;
+
+}

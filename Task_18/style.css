@@ -1,0 +1,31 @@
+.container-item{
+	border: 2px solid black;
+	border-collapse: collapse;
+}
+
+.container{
+	display: grid;
+	grid-template-columns: 250px 250px 250px 250px;
+	grid-template-rows: 220px 220px 220px 220px;
+	text-align: center;
+}
+
+.container-item:nth-child(1){
+	grid-area: 1/1/3/2;
+}
+
+.container-item:nth-child(4){
+	grid-area: 1/3/3/4;
+}
+
+img{
+	width: 45%;
+}
+
+h5{
+	font-size: 15px;
+}
+
+p{
+	font-size: 12px;
+}
