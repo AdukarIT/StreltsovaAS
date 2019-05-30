@@ -33,3 +33,11 @@
 
 ## 14. Анимация
 [Task 1, 2, 3](https://github.com/AdukarIT/StreltsovaAS/tree/master/Task_14_animation)
+
+
+## 16. SCSS
+[Task 1](https://github.com/AdukarIT/StreltsovaAS/tree/master/Task_16)
+
+
+## 18. Grid
+[Task 1](https://github.com/AdukarIT/StreltsovaAS/tree/master/Task_18)
