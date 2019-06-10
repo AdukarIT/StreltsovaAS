@@ -41,3 +41,6 @@
 
 ## 18. Grid
 [Task 1](https://github.com/AdukarIT/StreltsovaAS/tree/master/Task_18)
+
+## 20 Javascript. Операторы. Циклы
+[Практика](https://github.com/AdukarIT/StreltsovaAS)
