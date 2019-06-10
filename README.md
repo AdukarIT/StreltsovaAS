@@ -44,3 +44,15 @@
 
 ## 20 Javascript. Операторы. Циклы
 [Практика](https://github.com/AdukarIT/StreltsovaAS)
+
+## 21. Функции
+ [Практика] (https://github.com/AdukarIT/StreltsovaAS/blob/master/Task-21/practice.js)
+ [Домашнее задание] (https://github.com/AdukarIT/StreltsovaAS/blob/master/Task-21/homework.js)
+
+ ## 22. Поиск ошибок и отладка кода. Практика
+ [Практика] (https://github.com/AdukarIT/StreltsovaAS/blob/master/Task-22/homework.js)
+
+
+## 23. Массивы
+[Практика] (https://github.com/AdukarIT/StreltsovaAS/blob/master/Task-23/practice.js)
+
