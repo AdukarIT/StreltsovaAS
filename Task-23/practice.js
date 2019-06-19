@@ -1,5 +1,5 @@
 
-// Задание №1
+// ПРАКТИКА 1. Задание №1
 
 var  newArrey = [];
 
@@ -63,6 +63,7 @@ var a = prompt("Введите первое число");
 var b = prompt("Введите второе число");
 var c = prompt("Введите третье число");
 
+
 var Arrey = [a, b, c]; {
 	console.log(Arrey);
 }
@@ -94,3 +95,53 @@ console.log(newArrey)
 newArrey.splice(0, 3, Arrey[2]/number,Arrey[1]/number, Arrey[0]/number);
 
 console.log(newArrey);
+
+
+
+
+
+
+
+ПРАКТИКА 2. Задание№1
+
+
+let number = [];
+for(let i = 1; i<=35; i++)
+	number.push(i); {
+		console.log(number);
+	}
+
+let NewNumber= [];
+for(let i = 1; i<=35; i++)
+    NewNumber.push(i);
+	NewNumber.splice(0, 10);
+for(i=1; i<=10;i++)
+ 	NewNumber.push(i); {
+ 		console.log(NewNumber);
+ 	}
+NewNumber.splice(0, 10, 20, 19, 18, 17, 16, 15, 14, 13, 12, 11);
+console.log(NewNumber);
+
+// console.log(NewNumber.indexOf(21));
+
+NewNumber.fill(2 ** 1, 10, 15);
+console.log(NewNumber);  
+ // пять первых степеней двойки вместо 21-25
+
+
+// console.log(NewNumber.indexOf(26));
+// console.log(NewNumber.indexOf(31));
+
+NewNumber.fill(1, 15, 20); {
+	console.log(NewNumber);
+}
+// c 26 по 30 заменили единицами
+
+// console.log(NewNumber.indexOf(31));
+// console.log(NewNumber.indexOf(35));
+
+
+NewNumber.splice(20, 5, NewNumber.slice(20, 25).join(" ")); {
+	console.log(NewNumber);
+}
+// заменяем в массиве с 20 индекса пять элементов на те же, которые копируем  из массива и склеиваем в строку
