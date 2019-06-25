@@ -81,3 +81,5 @@ console.log(ObjStr(Obj, string));
 
   penguin.sayHello();
   penguin.fly();
+
+// хорошо
