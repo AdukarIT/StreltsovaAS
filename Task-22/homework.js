@@ -6,7 +6,7 @@ let katet_2 = prompt("Введите длину второго катета");
 
 let gip = prompt("Введите длину гипотенузы");
 
-function triangle(katet_1, katet_2, gip) {
+function triangle(katet_1, katet_2, gip) { // лучше не использовать транслитерацию
 	if (gip*gip==katet_1*katet_1+katet_2*katet_2)
 		return true;
 	
@@ -55,7 +55,7 @@ let mark = prompt("Введите отметку");
 function marks(mark) {
 	switch(mark) {
 		case "1":
-		return "Unsatisfactory";
+		return "Unsatisfactory"; // case можно объединять
 		break;
 
 		case "2":
@@ -113,7 +113,7 @@ let a = prompt("Введите число");
 function PrimeNumber(a) {
 	if (a%2==0 && a!=2 || a==1) {
     console.log("Число составное");
-	} else if (a%3==0 && a!=3) {
+	} else if (a%3==0 && a!=3) { // а что с 5 и 7?
 		console.log("Число составное");
 	} else {
 		console.log("Число простое");
@@ -154,7 +154,7 @@ let i = 99;
 
 function Numbers() {
 	for (i; i>=10; i--)	{
-    if (i%7!==0) continue;
+    if (i%7!==0) continue; // очень трудно читать, соблюдайте вложенность
 		console.log(i);
 	}
 }
@@ -239,4 +239,4 @@ function BiteConverter( size, unit) {
 
 BiteConverter( size, unit);
 
-
+// хорошо
