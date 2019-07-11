@@ -60,3 +60,13 @@
 [Практика](https://github.com/AdukarIT/StreltsovaAS/blob/master/Task-24/practice.js)
 [Домашнее задание](https://github.com/AdukarIT/StreltsovaAS/blob/master/Task-24/homework.js)
 
+
+## 25. Встроенные возможности javascript
+[Домашнее задание](https://github.com/AdukarIT/StreltsovaAS/tree/master/Task-25)
+
+
+## 26. Продвинутый javascript
+[Домашнее задание](https://github.com/AdukarIT/StreltsovaAS/tree/master/Task-26)
+
+
+
