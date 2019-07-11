@@ -52,7 +52,7 @@ var y=1;
 
 function factorial(x) {
 	for( var i=1; i<=x; i++) {
-		y *=i;
+		y *=i; // лучше не изменять внешние переменные
 	}
 }
 
@@ -79,3 +79,4 @@ function numberReverse(a) {
 
 let c = numberReverse(a);
 console.log(c);
+// хорошо

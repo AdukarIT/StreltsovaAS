@@ -56,3 +56,7 @@
 ## 23. Массивы
 [Практика](https://github.com/AdukarIT/StreltsovaAS/blob/master/Task-23/practice.js)
 
+## 24. Объекты
+[Практика](https://github.com/AdukarIT/StreltsovaAS/blob/master/Task-24/practice.js)
+[Домашнее задание](https://github.com/AdukarIT/StreltsovaAS/blob/master/Task-24/homework.js)
+

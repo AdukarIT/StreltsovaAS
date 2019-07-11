@@ -29,7 +29,7 @@ var a = prompt("Введите первое число");
 var b = prompt("Введите второе число");
 var c = prompt("Введите третье число");
 
-var Arrey = [a, b, c]; {
+var Arrey = [a, b, c]; { // нужно делать в цикле
 	console.log(Arrey);
 }
  
@@ -51,7 +51,7 @@ if (a>b && b>=c) {
 
 var newArrey = [];
 
-newArrey.push(Arrey[0]/number);
+newArrey.push(Arrey[0]/number); // нужно делать в цикле
 newArrey.push(Arrey[1]/number);
 newArrey.push(Arrey[2]/number);
 console.log(newArrey)
@@ -92,7 +92,7 @@ newArrey.push(Arrey[2]/number);
 console.log(newArrey)
 
 
-newArrey.splice(0, 3, Arrey[2]/number,Arrey[1]/number, Arrey[0]/number);
+newArrey.splice(0, 3, Arrey[2]/number,Arrey[1]/number, Arrey[0]/number); // цикл
 
 console.log(newArrey);
 
@@ -102,7 +102,7 @@ console.log(newArrey);
 
 
 
-ПРАКТИКА 2. Задание№1
+ПРАКТИКА 2. Задание№1 // предлагаю обсудить на занятии
 
 
 let number = [];
