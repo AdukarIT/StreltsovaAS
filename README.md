@@ -69,4 +69,23 @@
 [Домашнее задание](https://github.com/AdukarIT/StreltsovaAS/tree/master/Task-26)
 
 
+## 27. DOM. Работа со страницей
+[Домашнее задание](https://github.com/AdukarIT/StreltsovaAS/tree/master/Task_27)
 
+## 28. События. Координаты на странице
+[Домашнее задание](https://github.com/AdukarIT/StreltsovaAS/tree/master/Task-28)
+
+## 29. Формы
+[Домашнее задание](https://github.com/AdukarIT/StreltsovaAS/tree/master/Task-29)
+
+## 30. ООП в Javascript
+
+
+## 31. Взаимодействие с сервером
+
+
+## 32. Сборщик Webpack
+
+
+## 33. Библиотека jQuery
+[Домашнее задание](https://github.com/AdukarIT/StreltsovaAS/tree/master/Task-33)
