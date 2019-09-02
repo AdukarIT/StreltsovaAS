@@ -79,13 +79,16 @@
 [Домашнее задание](https://github.com/AdukarIT/StreltsovaAS/tree/master/Task-29)
 
 ## 30. ООП в Javascript
-
+[Домашнее задание](https://github.com/AdukarIT/StreltsovaAS/tree/master/Task-30)
 
 ## 31. Взаимодействие с сервером
-
+[Задание](https://github.com/AdukarIT/StreltsovaAS/tree/master/AJAX)
 
 ## 32. Сборщик Webpack
 
 
 ## 33. Библиотека jQuery
 [Домашнее задание](https://github.com/AdukarIT/StreltsovaAS/tree/master/Task-33)
+
+## Календарь
+[Календарь](https://github.com/AdukarIT/StreltsovaAS/tree/master/календарь)
