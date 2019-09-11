@@ -90,5 +90,8 @@
 ## 33. Библиотека jQuery
 [Домашнее задание](https://github.com/AdukarIT/StreltsovaAS/tree/master/Task-33)
 
+## 34. Библиотека jQuery. AJAX и анимации
+[Домашнее задание](https://github.com/AdukarIT/StreltsovaAS/blob/master/Task-34/task--34/script.js)
+
 ## Календарь
 [Календарь](https://github.com/AdukarIT/StreltsovaAS/tree/master/календарь)
