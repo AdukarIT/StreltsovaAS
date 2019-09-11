@@ -1,73 +1,110 @@
-	function openCalendar(){
-		$(".calendar-components-button").click(function(){
-		$(".calendar-components-datepicker__hide").toggle("calendar-components-datepicker__show");
-		createTable();
+$(function(){
+
+	function openDatepicker(){
+		$(".datepicker-button__active").click(function(){
+		$(".datepicker__hidden").toggle(".datepicker__active");
+		openPullDatepicker();
 	});
 	}
 
-	openCalendar();
+	openDatepicker();
 
-	var nowDate = new Date()
-	var today = nowDate.getDate();
-	var currentMonth = nowDate.getMonth();
-	var currentYear = nowDate.getFullYear();
-
-	// Получаем последний день месяца
-	var temp = new Date(currentYear, currentMonth+1, 0);
-	var lastDay = temp.getDate();
-
-
-
-	// Цикл, рассчитывающий количество дней в месяце
-		// for(var i=1; i<30; i++) {
-		// 	nowDate.setDate(i);
+// ПОЛУЧИЛИ ТЕКУЩУЮ ДАТУ
+	let date = new Date();
+	// получили месяц текущей даты
+	let month = date.getMonth();
+	// получили год текущей даты
+	let year = date.getFullYear();
+	// последний день месяца
+	let lastDay = new Date(year, month+1, 0).getDate();
+	// первый день месяца
+	let firstDay = new Date(year, month, 1)
 
 
-		// 	var td = document.createElement("td");
-		// 	var arr = [];
-		// 	arr.push(td);
-		// 	td.innerHTML = nowDate.getDate();
-		// }
+function openPullDatepicker(){
 
-		// for(var i = 0; i<arr.length; i++){
-		// 	var tr = document.createElement("tr");
-		// 	for(var j = 0; j < 7; j++){
-		// 		tr.appendChild(arr[j]);
-		// 	}
-		// 	table.appendChild(tr);
-		// }
-
-		// Переменная d начинается с первого дня текущего месяца
-		function createTable(){
-			var d = new Date(currentYear, currentMonth, 1);
-			// var currentDay = d.getDate();
-			// while (d.getDate != lastDay) {
-				// Проверяем какой день недели у дня
-				// Понедельник -1.
-				// Решаем проблему воскресенья. Ниже порядковый номер текущего дня
-				var t = d.getDate()-1;
-				if (t < 0) {
-					t = 6;
-				}
-
-				// Выводим дни первой недели месяца.
-				var tr = document.createElement("tr");
-				var i = 0;
-					while(i < 7) {
-						var td = document.createElement("td");
-
-						if(i < t) {
-							
-							td.innerHTML = "";
-					} else {
-						td.innerHTML = d.getDate();
-						d.setDate(d.getDate() +1);
-					}
-					tr.appendChild(td);
-					i++;
-				}
-				table.appendChild(tr);
-
-			// }
-
+// получаем день недели первого числа месяца
+	let dayWeek = firstDay.getDay();
+		if (dayWeek === 0) {
+			dayWeek = 7;
 		}
+// это пустые п
+	for(let a=1; a<dayWeek; a++) {
+		$(".datepicker-days-week").append(`<p></p>`)
+	}
+	
+// получаем все количество дней в месяце
+	for(let i = 1; i<=lastDay; i++) {
+		$(".datepicker-days-week").append(`<p>${i}</p>`)
+	}
+	$(".datepicker-days-week p").css("margin-left", "40px")
+
+
+// выведем в п месяц и год.текущие
+
+	let monthArr=["Январь","Февраль","Март","Апрель","Май","Июнь","Июль","Август","Сентябрь","Октябрь","Ноябрь","Декабрь"];
+
+	$(".datepicker-month").text(`${monthArr[new Date().getMonth()]} ${date.getFullYear()}`);
+
+	$(".datepicker-month").css("font-size", "35px");
+	$(".datepicker-month").css("color", "#911E42")
+
+ // при клике назад
+	$(".datepicker-button__prev").click(function(){
+//    $(".datepicker-days-week p").revome()
+			$(".datepicker-month").text(`${monthArr[new Date().getMonth()-1]} ${date.getFullYear()}`);
+
+		
+// 				// получаем день недели первого числа месяца
+// 	let dayWeek = new Date(year, month-1, 1).getDay();
+// 		if (dayWeek === 0) {
+// 			dayWeek = 7;
+// 		}
+// // это пустые п
+// 	for(let t=1; t<dayWeek; t++) {
+// 		$(".datepicker-days-week").append(`<p></p>`)
+// 	}
+	
+// полчаем все количество дней в месяце
+
+	// for(let h = 1; h<=lastDay; h++) {
+	// 	$(".datepicker-days-week").append(`<p>${h}</p>`)
+	// }
+		})
+
+
+
+	$(".datepicker-button__next").click(function(){
+		$(".datepicker-month").text(`${monthArr[new Date().getMonth()+1]} ${date.getFullYear()}`);
+	})
+
+
+
+
+
+
+	// function prevMonthAndYear(){
+	// 	month=month-1;
+	// 	$(".datepicker-button__prev").click(function(){
+	// 		$(".datepicker-month").text(`${month} ${year}`)
+	// 	})
+		
+	// }
+
+	// function nextMonthAndYear(){
+	// 	$(".datepicker-button__next").click(function(){
+	// 	 month = month+ 1;
+	// 		$(".datepicker-month").text(`${month} ${year}`)
+	// 	})
+	// }
+
+
+
+
+}
+	
+
+})
+
+
+	

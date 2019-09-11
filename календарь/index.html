@@ -3,93 +3,29 @@
 	<head> 
 		<meta charset="utf-8">
 		<link rel="stylesheet" href="style.css">
-		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
 	</head>
 	<body>
 		
-	<div class="calendar container">
-		<div class="row">
-			<div class="calendar-components col-md-5">	
-				<input type="text" placeholder="DD-MM-YYYY" class="calendar-components-input">
+	<form class="datepicker">
+		<input type="text" placeholder="DD-MM-YYYY" class="datepicker-input">
+		<button type="button" class="datepicker-button__active">Открыть календарь</button>
+		<div class="datepicker__hidden">
+			<div class="datepicker-button">
+				<button class="datepicker-button__prev" type="button">Назад</button>
+				<p class="datepicker-month"></p>
+				<button class="datepicker-button__next" type="button">Вперед</button>
 			</div>
-			<div class="calendar-components col-md-5">
-				<button class="calendar-components-button">Открыть календарь</button>
-			</div>
-		</div>
-
-		<div class="row">
-			<div class="calendar-components-datepicker__hide col-md-12">
-				<table class="table table-bordered" id="table">
-					<tr>
-						<div class="row">	
-							<button class="calendar-components__back col-md-3"><<<</button>
-							<div class="calendar-components-month col-md-3"></div>
-							<button class="calendar-components__forward col-md-3">>>></button>
-						</div>
-				</tr>
-  					<thead>
-    					<tr>
-						      <th scope="col">пн</th>
-						      <th scope="col">вт</th>
-						      <th scope="col">ср</th>
-						      <th scope="col">чт</th>
-						      <th scope="col">пт</th>
-						      <th scope="col">сб</th>
-						      <th scope="col">вс</th>
-					    </tr>
-					</thead>
-					  <tbody>
-					    <tr>
-					      <th scope="row"></th>
-						      <td></td>
-						      <td></td>
-						      <td></td>
-						      <td></td>
-						      <td></td>
-						      <td></td>
-					    </tr>
-					    <tr>
-					      <th scope="row"></th>
-						      <td></td>
-						      <td></td>
-						      <td></td>
-						      <td></td>
-						      <td></td>
-						      <td></td>
-
-					    </tr>
-					    <tr>
-					      <th scope="row"></th>
-						      <td></td>
-						      <td></td>
-						      <td></td>
-						      <td></td>
-						      <td></td>
-						      <td></td>
-					    </tr>
-					    <tr>
-					      <th scope="row"></th>
-						      <td></td>
-						      <td></td>
-						      <td></td>
-						      <td></td>
-						      <td></td>
-						      <td></td>
-					    </tr>
-					    <tr>
-					      <th scope="row"></th>
-						      <td></td>
-						      <td></td>
-						      <td></td>
-						      <td></td>
-						      <td></td>
-						      <td></td>
-					    </tr>
-					  </tbody>
-				</table>
+			<div class="datepicker-days-week">
+				<p>пн</p>
+				<p>вт</p>
+				<p>ср</p>
+				<p>чт</p>
+				<p>пт</p>
+				<p>сб</p>
+				<p>вс</p>
 			</div>
 		</div>
-	</div>	
+	</form>
 
 
 
