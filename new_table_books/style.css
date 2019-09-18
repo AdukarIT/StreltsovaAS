@@ -1,0 +1,102 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+.table__list__item{
+	border: 2px solid black;
+	font-size:28px;
+	background-color: #FFDEAD;
+	padding: 10px;
+
+	
+}
+
+.catalog{
+	border-collapse: collapse;
+	margin-top: 5px;
+	margin-left: 5px;
+	width: 80%;
+}
+
+.book-add{
+	margin-top: 2px;
+	margin-left: 5px;
+	font-size:28px;
+}
+
+/* label > button {
+	display: flex;
+}
+ */
+
+body{
+	position: relative;
+}
+.modal-window{
+	position: absolute;
+	border:  2px solid black;
+	width: 30%;
+	padding: 20px;
+	margin-top: 20px;
+	background: #F5DEB3;
+	display: none;
+	margin-left: 50%;
+	margin-top: -30%;
+}
+
+.modal-window input, .modal-window label {
+	margin: 10px;
+}
+
+.modal-window button {
+	margin-left: 50px;
+}
+
+.catalog__table__body td{
+	border: 2px solid black;
+	font-size:20px;
+	background-color: #FFDEAD;
+	padding: 10px;
+}
+
+
+.catalog__table__body td:last-child{
+	background-color: white;
+	border: white;
+	background-image: url('https://ru.seaicons.com/wp-content/uploads/2015/06/Status-dialog-error-icon.png');
+	background-size: 25px;
+	background-repeat: no-repeat;
+	
+
+}
+
+.hidden-td{
+	visibility: hidden;
+}
+
+.catalog__table__body tr:hover{
+	color: #DF0101;
+}
+.catalog__table__body tr:hover .hidden-td{
+	visibility: visible;
+}
+
+
+/* 		// $(".modal-window__button_save").click(function(event){
+		// 	let id = $("#id").val();
+		// 	let title = $("#title").val();
+		// 	let author = $("#author").val();
+		// 	let price = $("#price").val();
+		// 	let description = $("#description").val();
+
+		// 	$(".catalog__table__body").append('<tr id="newString"></tr>');
+		// 	$("#newString").append(`
+		// 		<td>id</td>
+		// 		<td>title</td>
+		// 		<td></td>
+		// 		<td></td>
+		// 		<td></td>`)
+
+		// }) */
