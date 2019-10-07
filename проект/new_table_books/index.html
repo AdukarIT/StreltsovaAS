@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+	<link rel="stylesheet" href="css/animate.css">
+</head>
+<body>
+	<button class="book-add">+</button>
+	<table class="catalog">
+		<tr class="table__list">
+			<th class="table__list__item">Id</th>
+			<th class="table__list__item">Title</th>
+			<th class="table__list__item">Autor</th>
+			<th class="table__list__item">Price</th>
+			<th class="table__list__item">Description</th>
+		</tr>
+		<tbody class="catalog__table__body"></tbody>
+	</table>
+
+	<div id="bookEditorModal" class="modal-window box animated bounceInDown">
+		<label id="label" class="modal-window__item">Title
+			<input type="text" id="title">
+		</label>
+		<br>
+		<label id="label" class="modal-window__item">Author
+			<input type="text" id="author">
+		</label>
+		<br>
+		<label id="label" class="modal-window__item">Price
+			<input type="text" id="price">
+		</label>
+		<br>
+		<label id="label" class="modal-window__item">Description
+			<input type="text" id="description">
+		</label>
+		<br>
+		<button class="modal-window__button_save">Save</button>
+		<button class="modal-window__button_close">Close</button>
+	</div>
+</body>
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+	<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+	<script src="script.js"></script>
+	<script src="main.js"></script>
+</html>
